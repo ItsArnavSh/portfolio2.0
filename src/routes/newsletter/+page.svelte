@@ -1,6 +1,3 @@
-<script>
-    
-</script>
 <div class = "pt-40 pb-40 bg-green-100">
 <div class = "flex flex-col items-center">
 <p class = "mb-5 text-3xl">I am Starting My Own <b>Newsletter</b></p>

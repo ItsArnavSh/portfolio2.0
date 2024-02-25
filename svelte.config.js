@@ -1,5 +1,5 @@
 
-import adapter from 'svelte-adapter-github';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -13,10 +13,7 @@ const config = {
       precompress: false,
       domain: '',
       jekyll: false
-    }),  target: '#svelte',
-    paths: {
-      base: '/your-repo', // Update with your repository name
-    }
+    })
   },
   preprocess: vitePreprocess()
 };
