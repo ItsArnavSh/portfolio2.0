@@ -13,7 +13,10 @@ const config = {
       precompress: false,
       domain: '',
       jekyll: false
-    })
+    }),  target: '#svelte',
+    paths: {
+      base: '/your-repo', // Update with your repository name
+    }
   },
   preprocess: vitePreprocess()
 };
