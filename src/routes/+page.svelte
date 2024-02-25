@@ -12,7 +12,7 @@ import About from "./about/+page.svelte"
     <p class = "mb-5">An Aspiring <b>Entrepreneur</b></p>
     <hr>
     <p class = "text-xl mt-10 mb-3">If you want to explore the field of DSA,<br>Check out my Newsletter, <a href = "/newsletter">Trillingo</a></p>
-    <iframe src="https://embeds.beehiiv.com/b4d502eb-1c82-4018-a782-e8d6c0e712b8?slim=true" data-test-id="beehiiv-embed" height="120" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+    <iframe title = "news"  src="https://embeds.beehiiv.com/b4d502eb-1c82-4018-a782-e8d6c0e712b8?slim=true" data-test-id="beehiiv-embed" height="120" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
 </div>
 <img src="/images/me.png" class="max-w-md w-full h-auto rounded-md" alt="Not Loaded!">
 </div>
